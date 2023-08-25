@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log in</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/Login.css">
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto login-form">
+      <div class="logo">
+        <img src="images\Logo.png" alt="Logo">
+        <h1>Socio-<span style="color: #EC407A;">Connect</span></h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="phone">Phone number</label>
+          <div class="input-group">
+            <input type="tel" class="form-control form-border" id="phone" name="phone" placeholder="XXXX XXXXXXX" required>
+            <div class="input-group-append">
+                <span class="input-group-text" style="background-color: white;" ><i class="fas fa-phone"></i></span>
+              </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="name">Password</label>
+          <div class="input-group ">
+            <input type="password" class="form-control form-border" id="password" name="password" placeholder="787whjcxbuw@13cd"   >
+            <div class="input-group-append ">
+              <span class="input-group-text" style="background-color: white;"><i class="far fa-eye"></i></span>
+            </div>
+           
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-register" id="next-btn">Login</button>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+      </form>
+      <div class="login-link">
+     <span class="signup-link"> Don't have an account? <a href="#" style="color:#EC407A ;">Sign Up</a> </span><br> <br>
+        <span>OR</span><br>
+        <button class="btn-google">
+          <img src="images\google-logo.png" alt="Google Logo" class="google-logo" >
+          Sign up with Google 
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
